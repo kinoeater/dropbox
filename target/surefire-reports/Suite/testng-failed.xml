@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="FunctionTests.NavigateSideMenuTest">
+        <methods>
+          <include name="navigate"/>
+        </methods>
+      </class> <!-- FunctionTests.NavigateSideMenuTest -->
+      <class name="FunctionTests.ShareFolderTest">
+        <methods>
+          <include name="ShareFolder"/>
+        </methods>
+      </class> <!-- FunctionTests.ShareFolderTest -->
+      <class name="FunctionTests.LoginLogoutTest">
+        <methods>
+          <include name="logindropbox"/>
+        </methods>
+      </class> <!-- FunctionTests.LoginLogoutTest -->
+      <class name="FunctionTests.ChangeAvatarTest">
+        <methods>
+          <include name="upfile"/>
+        </methods>
+      </class> <!-- FunctionTests.ChangeAvatarTest -->
+      <class name="FunctionTests.CreateNewFolderTest">
+        <methods>
+          <include name="Create_N_Folder"/>
+        </methods>
+      </class> <!-- FunctionTests.CreateNewFolderTest -->
+      <class name="FunctionTests.FileUploadTest">
+        <methods>
+          <include name="upfile"/>
+        </methods>
+      </class> <!-- FunctionTests.FileUploadTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

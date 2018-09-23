@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Logged into dropbox successfully]]>
+    </line>
+    <line>
+      <![CDATA[Navigated through the sidebar successfully]]>
+    </line>
+    <line>
+      <![CDATA[Closing Webdriver, end of the test]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="74529" started-at="2018-09-23T21:20:01Z" finished-at="2018-09-23T21:21:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="74529" started-at="2018-09-23T21:20:01Z" finished-at="2018-09-23T21:21:15Z">
+      <class name="FunctionTests.NavigateSideMenuTest">
+        <test-method status="PASS" signature="navigate()[pri:0, instance:FunctionTests.NavigateSideMenuTest@4b9e13df]" name="navigate" duration-ms="74506" started-at="2018-09-24T00:20:01Z" finished-at="2018-09-24T00:21:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged into dropbox successfully]]>
+            </line>
+            <line>
+              <![CDATA[Navigated through the sidebar successfully]]>
+            </line>
+            <line>
+              <![CDATA[Closing Webdriver, end of the test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+      </class> <!-- FunctionTests.NavigateSideMenuTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

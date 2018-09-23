@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">6</td><td class="numi">84,5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">FunctionTests.CreateNewFolderTest</td><td><a href="#m1"><b>Create_N_Folder</b>  </a></td><td class="numi">1</td><td>1537742744678</td><td class="numi">29615</td></tr>
+<tr class="failedeven"><td rowspan="1">FunctionTests.ShareFolderTest</td><td><a href="#m2"><b>ShareFolder</b>  </a></td><td class="numi">1</td><td>1537742774310</td><td class="numi">22904</td></tr>
+<tr class="failedodd"><td rowspan="1">FunctionTests.LoginLogoutTest</td><td><a href="#m3"><b>logindropbox</b>  </a></td><td class="numi">1</td><td>1537742804552</td><td class="numi">2538</td></tr>
+<tr class="failedeven"><td rowspan="1">FunctionTests.NavigateSideMenuTest</td><td><a href="#m4"><b>navigate</b>  </a></td><td class="numi">1</td><td>1537742799662</td><td class="numi">4890</td></tr>
+<tr class="failedodd"><td rowspan="1">FunctionTests.FileUploadTest</td><td><a href="#m5"><b>upfile</b>  </a></td><td class="numi">1</td><td>1537742797219</td><td class="numi">2425</td></tr>
+<tr class="failedeven"><td rowspan="1">FunctionTests.ChangeAvatarTest</td><td><a href="#m6"><b>upfile</b>  </a></td><td class="numi">1</td><td>1537742807111</td><td class="numi">22062</td></tr>
+</table>
+<h1>Test</h1>
+<h2 id="m1">FunctionTests.LoginLogoutTest:logindropbox</h2>
+<div style="padding-left:3em">
+<p>unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.20 seconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067dbcaedd7d2ab9af5151fc471d363d97193&apos;, time: &apos;2016-02-05 11:20:57&apos;
+System info: host: &apos;NTS5CG7321YLY&apos;, ip: &apos;192.168.1.54&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=D:\Users\myol\AppData\Local\Temp\scoped_dir30672_24882}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 37f164ddb577e5d2d0ccfa3c6172c78e</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+<br/>at pageobjects.SigninPage.Launch(SigninPage.java:54)
+<br/>at FunctionTests.LoginLogoutTest.logindropbox(LoginLogoutTest.java:28)
+<br/>29 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">FunctionTests.CreateNewFolderTest:Create_N_Folder</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[@class=&apos;page-header__heading&apos;]&quot;}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067dbcaedd7d2ab9af5151fc471d363d97193&apos;, time: &apos;2016-02-05 11:20:57&apos;
+System info: host: &apos;NTS5CG7321YLY&apos;, ip: &apos;192.168.1.54&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=D:\Users\myol\AppData\Local\Temp\scoped_dir31544_32508}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 197bae95511e92afe3e2ba633e3bd2c3
+*** Element info: {Using=xpath, value=//h1[@class=&apos;page-header__heading&apos;]}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+<br/>at pageobjects.Homepage.VerifyHomepage(Homepage.java:226)
+<br/>at FunctionTests.CreateNewFolderTest.Create_N_Folder(CreateNewFolderTest.java:33)
+<br/>29 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">FunctionTests.ChangeAvatarTest:upfile</h2>
+<div style="padding-left:3em">
+<p>null</p>
+pageobjects.Homepage.VerifyHomepage(Homepage.java:226)
+<br/>at FunctionTests.ChangeAvatarTest.upfile(ChangeAvatarTest.java:33)
+<br/>29 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">FunctionTests.NavigateSideMenuTest:navigate</h2>
+<div style="padding-left:3em">
+<p>no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067dbcaedd7d2ab9af5151fc471d363d97193&apos;, time: &apos;2016-02-05 11:20:57&apos;
+System info: host: &apos;NTS5CG7321YLY&apos;, ip: &apos;192.168.1.54&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=D:\Users\myol\AppData\Local\Temp\scoped_dir26272_1252}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: af2777ea52d874045a29911d380bc7aa
+*** Element info: {Using=id, value=sign-up-in}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+<br/>at org.openqa.selenium.By$ById.findElement(By.java:218)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+<br/>at pageobjects.SigninPage.gotosignin(SigninPage.java:78)
+<br/>at pageobjects.SigninPage.LogintoDropbox(SigninPage.java:90)
+<br/>at FunctionTests.NavigateSideMenuTest.navigate(NavigateSideMenuTest.java:29)
+<br/>29 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">FunctionTests.ShareFolderTest:ShareFolder</h2>
+<div style="padding-left:3em">
+<p>null</p>
+pageobjects.Homepage.VerifyHomepage(Homepage.java:226)
+<br/>at FunctionTests.ShareFolderTest.ShareFolder(ShareFolderTest.java:31)
+<br/>29 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">FunctionTests.FileUploadTest:upfile</h2>
+<div style="padding-left:3em">
+<p>unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 956 milliseconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067dbcaedd7d2ab9af5151fc471d363d97193&apos;, time: &apos;2016-02-05 11:20:57&apos;
+System info: host: &apos;NTS5CG7321YLY&apos;, ip: &apos;192.168.1.54&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=D:\Users\myol\AppData\Local\Temp\scoped_dir31216_17785}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1db7e11b299d94c0eb60fd5d96420726</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+<br/>at pageobjects.SigninPage.Launch(SigninPage.java:54)
+<br/>at FunctionTests.FileUploadTest.upfile(FileUploadTest.java:29)
+<br/>29 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
