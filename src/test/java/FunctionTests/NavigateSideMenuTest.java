@@ -12,9 +12,9 @@ import pageobjects.SigninPage;
 import pageobjects.Homepage;
 import configandtools.Tools;
 public class NavigateSideMenuTest {
-	
 	/*
-	 -- Login and Logout 
+	 -- This test will make us learn if navigation works properly
+	 through the left hand side navigation bar ---- 
 	 
 	 */
 	
