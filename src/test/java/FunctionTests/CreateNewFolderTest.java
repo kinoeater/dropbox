@@ -13,6 +13,14 @@ import pageobjects.SigninPage;
 public class CreateNewFolderTest {
 
 	
+	/*
+	 -- This test will create  a new folder to your dropbox.
+	  Folder name is parameterized and it should be  written in to Inputs Class 
+	  under configandtools package ---- 
+	 
+	 */
+	
+	
 	@Test
 	public void Create_N_Folder() throws InterruptedException {
 		
