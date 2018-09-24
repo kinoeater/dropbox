@@ -14,6 +14,12 @@ import pageobjects.SigninPage;
 
 public class ChangeAvatarTest {
 
+	/*
+	 -- This test will add a new avatar to your dropbox profile.
+	  Avatar file should be on your laptop and its location should be written in to Inputs Class 
+	  under configandtools package. Avatar pictures can be used which are shared along with the project---- 
+	 
+	 */
 	
 	@Test
 	public void upfile() throws InterruptedException, AWTException {
