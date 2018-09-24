@@ -11,6 +11,13 @@ import pageobjects.SigninPage;
 
 public class ShareFolderTest {
 
+	/*
+	 -- This test will create  a new folder then share it with someone.
+	  Folder name and email address are parameterized.They should be  written in to Inputs Class 
+	  under configandtools package. Sample files can be used which are shared along with the project---- 
+	 
+	 */
+	
 	
 	@Test
 	public void ShareFolder() throws InterruptedException {
