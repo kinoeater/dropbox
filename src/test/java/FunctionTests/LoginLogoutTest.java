@@ -15,7 +15,8 @@ public class LoginLogoutTest {
 	
 	/*
 	 -- Login and Logout 
-	 
+	 Username and password are parameterized.They should be  written in to Inputs Class 
+	  under configandtools package.
 	 */
 	
 	@Test
