@@ -13,7 +13,13 @@ import pageobjects.Homepage;
 import pageobjects.SigninPage;
 
 public class FileUploadTest {
-
+	
+		/*
+	 -- This test will upload a file to your dropbox account.
+	 File location should be  written in to Inputs Class under 
+	 configandtools package. Sample files can be used which are shared along with the project ---- 
+	 
+	 */
 	
 	@Test
 	public void upfile() throws InterruptedException, AWTException {
